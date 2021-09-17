@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #fff;
+}
+.form {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.form li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.logo h1{
+    color: #52b765;
+    font-size: 32px;
+}
+.logo h1 span{
+    color: #000;
+}
+.shopping_flex{
+    width: 24%;
+    display: flex;
+    justify-content: space-around;
+}
+.icons .fa{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+.schedule h2{
+    font-size: 20px;
+    background-color:  #52b765;
+    padding: 10px 15px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.burger{
+    display: none;
+
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    transition: 0.3s;
+    background-color: black;
+}
+
+.primary_banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url(images/img\ 1.jpg)no-repeat;
+    height: 90vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.primary_banner1{
+    background:  linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url(images/img\ 2.jpg)no-repeat;
+    height: 90vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.banner_flex{
+    display: flex;
+}
+ 
+
+
+
+
+/* ========================
+ ALL FOCUS UPON SELECTION
+=========================== */
+
+.burger:focus{
+    background: transparent;
+}
+::selection{
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================
+MEDIA QUARY FOR 540
+====================*/
+@media(max-width:540px){
+    nav{
+        padding: 0 27px;
+        /* background: url(/images/thomas-dumortier-Rdh4UcM6Y7E-unsplash.jpg); */
+    }
+    .logo h1{
+        color: #52b765;
+        font-size: 25px;
+        line-height: 0;
+    }
+    .logo h1 span{
+        display: none;
+    }
+    .logo h1::after{
+        content: "Laundry";
+        margin-left: 122px;
+        color: black;
+    }
+
+    .form li a{
+        color: #fff;
+    }
+
+
+
+}
+
+
+
+
+/* ================
+MEDIA QUARY FOR 768
+====================*/
+@media(max-width:768px){
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    .shopping_flex{
+        display: none;
+    }
+    .form{
+        display: none;
+    }
+    .form{
+        position: absolute;
+        display: flex;
+        top: 7vh;
+        right: 0;
+        width: 40%;
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        background-color: #52b765;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        justify-content: center;
+        transition: transform 0.5s;
+    }
+    .form li {
+        opacity: 0;
+        margin: 7px 0px 12px 30px;
+       
+    }
+    .form li a{
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .burger-active{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+    transition: 0.3s;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
