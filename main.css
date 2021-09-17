@@ -62,24 +62,56 @@ nav{
     background-color: black;
 }
 
+.banner_flex{
+    display: flex;
+    align-items: center;
+}
+
 .primary_banner{
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url(images/img\ 1.jpg)no-repeat;
     height: 90vh;
     width: 50%;
     background-position: center;
     background-size: cover;
+    align-items: center;
+    text-align: center;
     object-fit: cover;
 }
 .primary_banner1{
     background:  linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url(images/img\ 2.jpg)no-repeat;
     height: 90vh;
     width: 50%;
+    text-align: center;
     background-position: center;
     background-size: cover;
 }
-.banner_flex{
-    display: flex;
+
+.primary_banner h1,.primary_banner1 h1{
+    font-size: 45px;
+    line-height: 64px;
+    color: #fff;
+    margin: 0;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    text-align: center;
 }
+.primary_banner p,.primary_banner1 p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+}
+.primary_banner button,.primary_banner1 button{
+    background-color: #52b765;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
  
 
 
