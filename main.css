@@ -215,6 +215,23 @@ MEDIA QUARY FOR 768
     .burger-active{
         display: block;
     }
+    .primary_banner{
+        background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url(images/img\ 1.jpg)no-repeat;
+        height: 70vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        object-fit: cover;
+    }
+    .primary_banner h1{
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    .primary_banner1{
+        display: none;
+    }
     
 }
 
