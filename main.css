@@ -112,6 +112,48 @@ nav{
     margin-top: 30px;
 }
 
+/* =====>
+Secondary Section
+==========<*/
+
+.experience_mobile{
+    display: none;
+}
+.secondary{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 70px;
+}
+.exp{
+    position: relative;
+}
+.num_circle{
+    position: absolute;
+    left: 42%;
+    background-color: #52b765;
+    height: 142px;
+    width: 142px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 25%;
+    z-index: 2;
+}
+
+.num_circle p{
+    font-size: 45px;
+    margin-top: 32px;
+    line-height: 20px;
+    font-weight: 800;
+}
+.num_circle p span{
+    font-size: 17px;
+    line-height: 10px;
+    font-weight: 600;
+}
+
  
 
 
@@ -232,7 +274,56 @@ MEDIA QUARY FOR 768
     .primary_banner1{
         display: none;
     }
-    
+
+
+
+    /* =====>
+Secondary Section
+==========<*/
+  .secondary{
+    display: block;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 50px 10px;
+    }
+    .experience_mobile{
+        display: block;
+    }
+    .exp img{
+        width: 100%;
+    }
+
+    .experience_desktop h1,.experience_desktop p{
+        display: none;
+    }
+    .num_circle{
+        position: absolute;
+        left: 65%;
+        background-color: #52b765;
+        height: 127px;
+        width: 127px;
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        align-items: center;
+        border-radius: 50%;
+        margin-top: -35%;
+        z-index: 2;
+    }
+
+    .num_circle p{
+        font-size: 37px;
+        margin-top: 32px;
+        line-height: 20px;
+        font-weight: 800;
+    }
+    .num_circle p span{
+        font-size: 14px;
+        line-height: 10px;
+        font-weight: 600;
+    }
+
+
 }
 
 
