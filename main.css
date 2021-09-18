@@ -112,9 +112,9 @@ nav{
     margin-top: 30px;
 }
 
-/* =====>
-Secondary Section
-==========<*/
+    /* =====>
+    Secondary Section
+    ==========<*/
 
 .experience_mobile{
     display: none;
@@ -127,32 +127,32 @@ Secondary Section
 .exp{
     position: relative;
 }
-.num_circle{
-    position: absolute;
-    left: 42%;
-    background-color: #52b765;
-    height: 142px;
-    width: 142px;
-    position: absolute;
-    text-align: center;
-    color: #fff;
-    align-items: center;
-    border-radius: 50%;
-    margin-top: 25%;
-    z-index: 2;
+
+.experience_desktop{
+    width: 42%;
 }
 
-.num_circle p{
-    font-size: 45px;
-    margin-top: 32px;
-    line-height: 20px;
-    font-weight: 800;
-}
-.num_circle p span{
-    font-size: 17px;
-    line-height: 10px;
+.experience_desktop p,.experience_mobile p{
+    color: #52b765;
     font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
 }
+
+.experience_desktop h1,.experience_mobile h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.experience_desktop h5,.experience_mobile h5{
+    color: #7b7b7b;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
 
  
 
@@ -298,7 +298,7 @@ Secondary Section
     }
     .num_circle{
         position: absolute;
-        left: 65%;
+        left: 63%;
         background-color: #52b765;
         height: 127px;
         width: 127px;
@@ -322,8 +322,54 @@ Secondary Section
         line-height: 10px;
         font-weight: 600;
     }
+    .experience_desktop{
+        width: 100%;
+    }
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================
+MEDIA QUARY FOR 800px
+====================*/
+
+@media(min-width: 800px){
+    .num_circle{
+        position: absolute;
+        left: 42%;
+        background-color: #52b765;
+        height: 142px;
+        width: 142px;
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        align-items: center;
+        border-radius: 50%;
+        margin-top: 25%;
+        z-index: 2;
+    }
+    
+    .num_circle p{
+        font-size: 45px;
+        margin-top: 32px;
+        line-height: 20px;
+        font-weight: 800;
+    }
+    .num_circle p span{
+        font-size: 17px;
+        line-height: 10px;
+        font-weight: 600;
+    }
 }
 
 
