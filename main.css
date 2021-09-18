@@ -203,6 +203,26 @@ nav{
     font-weight: 700;
 }
 
+/* ======>
+Tertiary
+=========<*/
+.tertiary{
+    display: flex;
+    /* padding: 30px 60px; */
+    /* justify-content: space-evenly; */
+}
+.wrap{
+    background-color: rgb(255, 255, 255);
+    width: 407px;
+    padding: 40px 0;
+    height:auto;
+    box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
+    padding-bottom: 40px;
+}
+/* .note{
+    max-width: 600px;
+} */
+
  
 
 
@@ -211,9 +231,15 @@ nav{
 /* ========================
  ALL FOCUS UPON SELECTION
 =========================== */
-
-.burger:focus{
-    background: transparent;
+.body:active{
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+}
+.burger:active{
+    outline: 0;
+    border: 0;
+    background-color: white;
 }
 ::selection{
     background: transparent;
@@ -396,6 +422,30 @@ Secondary Section
         line-height: 32px;
         padding-left: 20px;
     }
+
+
+    .tertiary{
+        display: flex; 
+        flex-direction: row;
+    }
+    .wrap{
+        background-color: rgb(175, 31, 31);
+        width: 100%;
+        padding: 40px 0;
+        height: auto;
+        margin-left: 50px;
+        box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
+        padding-bottom: 40px;
+    }
+    .note{
+        width: 330px;
+        height: auto;
+        padding: 0 30px;
+        padding-bottom: 20px;
+    }
+    .note h1{
+        font-size: 20px;
+    }
 }
 
 
@@ -409,10 +459,10 @@ Secondary Section
 
 
 /* ================
-MEDIA QUARY FOR 800px
+MEDIA QUARY FOR 992px
 ====================*/
 
-@media(min-width: 800px){
+@media(min-width: 992px){
     .num_circle{
         position: absolute;
         left: 42%;
