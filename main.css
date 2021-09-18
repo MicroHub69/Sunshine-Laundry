@@ -154,6 +154,55 @@ nav{
 }
 
 
+.customers_list{
+    display: flex;
+    margin-top: 50px;
+
+}
+.customers_list ul li{
+    font-size: 17px;
+    color: #7b7b7b;
+    line-height: 32px;
+    margin-right: 10px;
+}
+.customers_list ul li::before{
+  content: "\f00c";
+  font-family: "fontAwesome";
+  color: #52b765;
+  padding-right: 15px;
+}
+.phone_number{
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+    border-left: 1px solid #fff;
+}
+.phone_number .fa{
+    color: #52b765;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    border-radius: 50%;
+    font-weight: 600;
+    margin-top: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.phone_number h4{
+    color: #7b7b7b;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.phone_number h4 span{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
  
 
 
@@ -214,9 +263,9 @@ MEDIA QUARY FOR 540
 
 
 /* ================
-MEDIA QUARY FOR 768
+MEDIA QUARY FOR 800
 ====================*/
-@media(max-width:768px){
+@media(max-width:800px){
     .burger{
         display: block;
         cursor: pointer;
@@ -284,7 +333,7 @@ Secondary Section
     display: block;
     flex-direction: column;
     /* justify-content: space-between; */
-    padding: 50px 10px;
+    padding: 50px 15px;
     }
     .experience_mobile{
         display: block;
@@ -325,8 +374,28 @@ Secondary Section
     .experience_desktop{
         width: 100%;
     }
-
-
+    .customers_list{
+        display: block;
+    }
+    .phone_number{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+        margin-top: 40px;
+        border-left: 1px solid transparent;
+    }
+    .phone_number .fa{
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-left: 50px;   
+    }
+    .customers_list ul li {
+        font-size: 17px;
+        color: #7b7b7b;
+        line-height: 32px;
+        padding-left: 20px;
+    }
 }
 
 
