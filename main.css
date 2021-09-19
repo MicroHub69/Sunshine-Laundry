@@ -485,12 +485,12 @@ Secondary Section
         margin-top: 0px;
         margin-bottom: 0px;
         margin-right: 40px;
-        margin-left: 20px;
+        margin-left: 21px;
         box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
         padding-bottom: 40px;
     }
     .note{
-        width: 330px;
+        width: 300px;
         height: auto;
         padding: 0 30px;
         padding-bottom: 20px;
