@@ -216,7 +216,7 @@ Tertiary
     /* padding: 30px 60px; */
     justify-content: center;
 }
-.wrap{
+.wrap,.wrap1,.wrap2{
     background-color: rgb(255, 255, 255);
     width: 30%;
     margin: 20px 0;
@@ -470,22 +470,38 @@ Secondary Section
 
     .tertiary{
         display: flex; 
-        width: 400px;
+        /* width: 400px; */
         overflow-x: hidden;
         flex-direction: row;
         margin: 20px auto;
         justify-content: space-between;
+    }
+    .wrap1{
+        background-color: #fff;
+        width: 90%;
+        padding: 40px 15px;
+        height: auto;
+        display: none;
+        margin: 0 auto;
+        box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
+        padding-bottom: 40px;
+    }
+    .wrap2{
+        background-color: #fff;
+        width: 90%;
+        padding: 40px 15px;
+        height: auto;
+        display: none;
+        margin: 0 auto;
+        box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
+        padding-bottom: 40px;
     }
     .wrap{
         background-color: #fff;
         width: 90%;
         padding: 40px 15px;
         height: auto;
-        
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-right: 40px;
-        margin-left: 21px;
+        margin: 0 auto;
         box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
         padding-bottom: 40px;
     }
