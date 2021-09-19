@@ -208,20 +208,62 @@ Tertiary
 =========<*/
 .tertiary{
     display: flex;
+    align-items: center;
+    /* text-align: center; */
+    margin: 0 50px;
     /* padding: 30px 60px; */
-    /* justify-content: space-evenly; */
+    justify-content: center;
 }
 .wrap{
     background-color: rgb(255, 255, 255);
-    width: 407px;
-    padding: 40px 0;
-    height:auto;
+    width: 30%;
+    margin: 20px 0;
+    padding: 40px 20px;
+    height: auto;
     box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
     padding-bottom: 40px;
 }
-/* .note{
-    max-width: 600px;
-} */
+.note,.note1,.note2{
+    width: 320px;
+}
+.note h1::before{
+    content: "\f0e7";
+    font-size: 30px;
+    font-family: "FontAwesome";
+    color: #52b765;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.note1 h1::before{
+    content: "\f1f1";
+    font-size: 30px;
+    font-family: "FontAwesome";
+    color: #52b765;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.note2 h1::before{
+    content: "\f299";
+    font-size: 30px;
+    font-family: "FontAwesome";
+    color: #52b765;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.note h1,.note1 h1,.note2 h1{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.note p,.note1 p,.note2 p{
+    font-size: 15px;
+    margin-left: 30px;
+    color: #7b7b7b;
+    max-width: 300px;
+}
 
  
 
@@ -408,7 +450,7 @@ Secondary Section
         align-items: center;
         text-align: center;
         padding-left: 0px;
-        margin-top: 40px;
+        padding-top: 40px;
         border-left: 1px solid transparent;
     }
     .phone_number .fa{
@@ -427,18 +469,20 @@ Secondary Section
     .tertiary{
         display: flex; 
         flex-direction: row;
+        margin: 0 auto;
+        /* justify-content: center; */
     }
     .wrap{
         background-color: #fff;
         width: 100%;
-        padding: 40px 0;
+        padding: 40px 15px;
         height: auto;
-        margin: 0px 35px;
+        margin-left: 35px;
         box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
         padding-bottom: 40px;
     }
     .note{
-        width: 350px;
+        width: 280px;
         height: auto;
         padding: 0 30px;
         padding-bottom: 20px;
