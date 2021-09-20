@@ -1,14 +1,36 @@
-const firstBanner = document.querySelectorAll(".primary_banner")
-const secondBanner = document.querySelectorAll(".primary_banner1")
+if($(window).width() > 900){
 
-firstBanner.addEventListener("onload", change);
+}else{
 
-function change () {
-    if(firstBanner === ""){
-        firstBanner.classList.add = (".primary_banner1")
-    }
 
-    setTimeout(firstBanner,3000)
+
+var index = 0;
+var slides = document.querySelectorAll(".slides");
+var dot = document.querySelectorAll(".dot");
+
+function changeSlide(){
+
+  if(index<0){
+    index = slides.length-1;
+  }
+  
+  if(index>slides.length-1){
+    index = 0;
+  }
+  
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display = "none";
+    dot[i].classList.remove("active");
+  }
+  
+  slides[index].style.display= "block";
+  dot[index].classList.add("active");
+  
+  index++;
+  
+  setTimeout(changeSlide,8000);
+  
 }
+}
+changeSlide();
 
-change()

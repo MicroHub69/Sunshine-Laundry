@@ -226,9 +226,7 @@ Tertiary
     box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
     padding-bottom: 40px;
 }
-/* .note,.note1,.note2{
-    width: 320px;
-} */
+
 .note h1::before{
     content: "\f0e7";
     font-size: 30px;
@@ -470,7 +468,7 @@ Secondary Section
 
     .tertiary{
         display: flex; 
-        /* width: 400px; */
+       
         overflow-x: hidden;
         flex-direction: row;
         margin: 20px auto;
@@ -499,6 +497,7 @@ Secondary Section
     .wrap{
         background-color: #fff;
         width: 90%;
+        /* display: none; */
         padding: 40px 15px;
         height: auto;
         margin: 0 auto;
@@ -506,13 +505,25 @@ Secondary Section
         padding-bottom: 40px;
     }
     .note{
-        width: 300px;
+        /* width: 320px; */
         height: auto;
         padding: 0 30px;
         padding-bottom: 20px;
     }
     .note h1{
         font-size: 20px;
+    }
+
+    #dot{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .dot{
+        display:inline-block;
+        border-radius:50%;
+        background:#52b765;
+        padding:8px;
+        margin:10px 5px;
     }
 }
 
@@ -584,3 +595,13 @@ MEDIA QUARY FOR 992px
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+
+
+@keyframes fade{
+    from{
+      transform: translateX(100%);
+    }
+    to{
+      transform: translateX(0%);
+    }
+  }
