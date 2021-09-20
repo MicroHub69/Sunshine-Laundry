@@ -1,9 +1,6 @@
 if($(window).width() > 900){
-
-}else{
-
-
-
+  
+}else{  ///Mobile
 var index = 0;
 var slides = document.querySelectorAll(".slides");
 var dot = document.querySelectorAll(".dot");
@@ -31,6 +28,9 @@ function changeSlide(){
   setTimeout(changeSlide,8000);
   
 }
-}
+
+}///Mobile
+
+
 changeSlide();
 
