@@ -18,12 +18,12 @@ function changeSlide(){
     index = 0;
   }
   
-  for(let i=0;i<slides.length;i++){
+  for(let i = 0;i < slides.length; i++){
     slides[i].style.display = "none";
     dot[i].classList.remove("active");
   }
   
-  slides[index].style.display= "block";
+  slides[index].style.display = "block";
   dot[index].classList.add("active");
   
   index++;

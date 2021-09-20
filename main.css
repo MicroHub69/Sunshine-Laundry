@@ -513,7 +513,13 @@ Secondary Section
     .note h1{
         font-size: 20px;
     }
-
+    .slides{
+        overflow:hidden;
+        animation-name:fade;
+        animation-duration:2s;
+        display: none;
+        transition: 2s;
+    }
     #dot{
         text-align: center;
         margin: 0 auto;
@@ -521,10 +527,13 @@ Secondary Section
     .dot{
         display:inline-block;
         border-radius:50%;
-        background:#52b765;
+        background: #7b7b7b;
         padding:8px;
         margin:10px 5px;
     }
+    .active{
+        background:#52b765;
+      }
 }
 
 
