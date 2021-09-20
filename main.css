@@ -133,11 +133,17 @@ nav{
     width: 42%;
 }
 .material-icons-outlined{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 auto;
+    width: 70px;
+    text-align: center;
+    height: 70px;
+    padding-top: 20px;
     font-size: 30px;
-    color: rgb(7, 7, 7);
+    border-radius: 50%;
+    background-color: #52b765;
+    color: #fff;
 }
+
 .experience_desktop p,.experience_mobile p{
     color: #52b765;
     font-weight: 600;
@@ -159,9 +165,7 @@ nav{
     padding-top: 10px;
 }
 
-.yellow{
-    color: red;
-}
+
 .customers_list{
     display: flex;
     margin-top: 50px;
@@ -273,6 +277,24 @@ Tertiary
 }
 
  
+.tilt_child{
+    text-align: center;
+    margin: 70px 30px auto;
+    margin-bottom: 20px;
+}
+.tilt_child p{
+    color: #52b765;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tilt_child h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #323232;
+}
 
 
 
@@ -540,7 +562,15 @@ Secondary Section
     }
     .active{
         background:#52b765;
-      }
+    }
+
+
+    .tilt_child h1 {
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #323232;
+    }
 }
 
 
