@@ -3,5 +3,6 @@ Primary-color{
     brown-color: #7b7b7b;
     box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
     box-shadow: 0 15px 20px rgb(0 0 0 / 5%);
+    filter: linear-gradient(rgba(20, 20, 20, 0.0),rgba(0,0,0,0.5));
 
 }

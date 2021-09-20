@@ -295,26 +295,26 @@ Tertiary
     font-weight: 600;
     color: #323232;
 }
-.service_img{
-    position: relative;
-    margin: 0 10px;
-}
-.service_img img{
-    width: 100%;
-    
-    height: auto;
-    background-color: linear-gradient(rgba(0,0,0,0.5));
-    box-shadow: 0 15px 20px rgb(0 0 0 / 5%);
-}
 .tilt{
     display: flex;
+    margin: 0 9px;
 }
 .this_man{
-    margin-top: -90px;
-    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Polish\ Shoes.jpg);
+    /* margin-right: 30px; */
+    margin: 0 20px;
+    padding: 100px 20px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
     display: flex;
-    margin-left: 20px;
 }
+.man1{
+
+}
+
+
+
 
 
 
@@ -591,6 +591,9 @@ Secondary Section
         letter-spacing: 1px;
         font-weight: 600;
         color: #323232;
+    }
+    .this_man{
+        margin: 0 auto;
     }
 }
 
