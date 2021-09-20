@@ -279,7 +279,7 @@ Tertiary
  
 .tilt_child{
     text-align: center;
-    margin: 70px 30px auto;
+    margin: 100px 30px auto;
     margin-bottom: 20px;
 }
 .tilt_child p{
@@ -295,7 +295,26 @@ Tertiary
     font-weight: 600;
     color: #323232;
 }
-
+.service_img{
+    position: relative;
+    margin: 0 10px;
+}
+.service_img img{
+    width: 100%;
+    
+    height: auto;
+    background-color: linear-gradient(rgba(0,0,0,0.5));
+    box-shadow: 0 15px 20px rgb(0 0 0 / 5%);
+}
+.tilt{
+    display: flex;
+}
+.this_man{
+    margin-top: -90px;
+    position: absolute;
+    display: flex;
+    margin-left: 20px;
+}
 
 
 
@@ -564,7 +583,9 @@ Secondary Section
         background:#52b765;
     }
 
-
+    .tilt{
+        display: block;
+    }
     .tilt_child h1 {
         font-size: 25px;
         letter-spacing: 1px;
