@@ -299,19 +299,26 @@ Tertiary
     display: flex;
     margin: 0 9px;
 }
-.this_man{
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Polish\ Shoes.jpg);
-    /* margin-right: 30px; */
-    margin: 0 20px;
-    padding: 100px 20px;
+.service_section{
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.6)),url(images/Polish\ Shoes.jpg);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
     height: auto;
+    align-items: center;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
 }
-.man1{
-
+.man{
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Repair\ Steaches.jpg);
 }
+.man{
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Carpet.jpg);
+}
+
+
 
 
 
@@ -593,7 +600,7 @@ Secondary Section
         color: #323232;
     }
     .this_man{
-        margin: 0 auto;
+        margin: 20px auto;
     }
 }
 
