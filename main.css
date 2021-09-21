@@ -301,21 +301,40 @@ Tertiary
 }
 .service_section{
     background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.6)),url(images/Polish\ Shoes.jpg);
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 22px 15px;
     height: auto;
+    object-fit: cover;
+    margin-bottom: 50px;
     align-items: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
+    
 }
-.man{
+.man1{
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Repair\ Steaches.jpg);
 }
-.man{
+.man2{
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Carpet.jpg);
+}
+.service_icon{
+    margin-right: 20px;
+}
+.this_man{
+    display: flex;
+    margin-top: 170px;
+   
+}
+.this_man h4{
+    color: #fff;
+    font-size: 22px;
+}
+.this_man p{
+    color: #fff;
+    font-size: 17px;
 }
 
 
@@ -600,7 +619,23 @@ Secondary Section
         color: #323232;
     }
     .this_man{
-        margin: 20px auto;
+        display: flex;
+        margin-top: 150px;
+       
+    }
+    .this_man h4{
+        color: #fff;
+        font-size: 20px;
+    }
+    .this_man p{
+        color: #fff;
+        font-size: 15px;
+    }
+    .man1{
+        display: none;
+    }
+    .man2{
+        display: none;
     }
 }
 
