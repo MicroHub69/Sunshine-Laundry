@@ -609,9 +609,9 @@ Secondary Section
         background:#52b765;
     }
 
-    .tilt{
-        display: block;
-    }
+    /* .tilt{
+        display: flex;
+    } */
     .tilt_child h1 {
         font-size: 25px;
         letter-spacing: 1px;
@@ -630,13 +630,14 @@ Secondary Section
     .this_man p{
         color: #fff;
         font-size: 15px;
+    
     }
-    .man1{
-        display: none;
+    .service_section{
+        width: 390px;
     }
-    .man2{
-        display: none;
-    }
+    /* element.style{
+        width: 1200px;
+    } */
 }
 
 

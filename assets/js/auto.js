@@ -1,6 +1,6 @@
 if($(window).width() > 900){
   
-}else{  ///Mobile
+} else {  ///Mobile
 var index = 0;
 var slides = document.querySelectorAll(".slides");
 var dot = document.querySelectorAll(".dot");
