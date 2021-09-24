@@ -314,11 +314,18 @@ Tertiary
     display: flex;
     
 }
+
+.service_section1{
+    display: none;
+}
 .man1{
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Repair\ Steaches.jpg);
 }
 .man2{
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Carpet.jpg);
+}
+.man3{
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/ironing.jpg);
 }
 .service_icon{
     margin-right: 20px;
@@ -609,9 +616,9 @@ Secondary Section
         background:#52b765;
     }
 
-    /* .tilt{
-        display: flex;
-    } */
+    .tilt{
+        display: none;
+    }
     .tilt_child h1 {
         font-size: 25px;
         letter-spacing: 1px;
@@ -632,12 +639,18 @@ Secondary Section
         font-size: 15px;
     
     }
-    .service_section{
-        width: 390px;
+    /* .service_section{
+        display: none;
     }
+    .owl-dots{
+        display: none;
+    } */
     /* element.style{
         width: 1200px;
     } */
+    .owl-carousel .owl-width{
+        width: 200px;
+    }
 }
 
 
