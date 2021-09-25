@@ -637,6 +637,12 @@ Secondary Section
         font-size: 15px;
     
     }
+    .carousel{
+        display: flex;
+    }
+    .service_section{
+        margin: 0;
+    }
 }
 
 
