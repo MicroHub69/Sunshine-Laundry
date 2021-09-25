@@ -347,6 +347,7 @@ Tertiary
 
 .owl-dots{
     text-align: center;
+    margin-top: 20px;
 }
 .owl-dot{
     outline: 0;
@@ -628,7 +629,7 @@ Secondary Section
         padding:8px;
         margin:10px 5px;
     }
-    .active{
+    .current{
         background:#52b765;
     }
 
@@ -655,12 +656,12 @@ Secondary Section
         font-size: 15px;
     
     }
-    /* .carousel{
-        max-width: 400px;
-    } */
-    .service_section{
-        margin: 0;
+    .carousel{
+        max-width: 95%;
     }
+    /* .service_section{
+        margin: 0 10px;
+    } */
 }
 
 
