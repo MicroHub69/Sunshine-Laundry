@@ -613,9 +613,9 @@ Secondary Section
         background:#52b765;
     }
 
-    /* .tilt{
-        display: none;
-    } */
+    .tilt{
+        display: block;
+    }
     .tilt_child h1 {
         font-size: 25px;
         letter-spacing: 1px;
