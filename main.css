@@ -296,8 +296,8 @@ Tertiary
     color: #323232;
 }
 .carousel{
-    width: 100%;
-    /* display: flex; */
+    width: 80%;
+    display: flex;
     margin: 0 9px;
 }
 .service_section{
@@ -313,16 +313,19 @@ Tertiary
     background-position: center;
     background-size: cover;
     display: flex;
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 
 .man1{
+    background-repeat: no-repeat;
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Repair\ Steaches.jpg);
 }
 .man2{
+    background-repeat: no-repeat;
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Carpet.jpg);
 }
 .man3{
+    background-repeat: no-repeat;
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/ironing.jpg);
 }
 .service_icon{
@@ -342,6 +345,21 @@ Tertiary
     font-size: 17px;
 }
 
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    outline: 0;
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    background-color: #7b7b7b !important;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.owl-dot:hover{
+    background-color: #52b765 !important;
+}
 
 
 
