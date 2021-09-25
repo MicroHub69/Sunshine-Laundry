@@ -295,8 +295,9 @@ Tertiary
     font-weight: 600;
     color: #323232;
 }
-.tilt{
-    display: flex;
+.carousel{
+    width: 100%;
+    /* display: flex; */
     margin: 0 9px;
 }
 .service_section{
@@ -312,7 +313,7 @@ Tertiary
     background-position: center;
     background-size: cover;
     display: flex;
-    
+    max-width: 1200px;
 }
 
 .man1{
@@ -410,7 +411,7 @@ MEDIA QUARY FOR 540
 /* ================
 MEDIA QUARY FOR 800
 ====================*/
-@media(max-width:800px){
+@media(max-width:992px){
   
     .burger{
         display: block;
@@ -613,9 +614,9 @@ Secondary Section
         background:#52b765;
     }
 
-    .tilt{
-        display: block;
-    }
+    /* .carousel{
+        display: flex;
+    } */
     .tilt_child h1 {
         font-size: 25px;
         letter-spacing: 1px;
