@@ -6,3 +6,43 @@ Primary-color{
     filter: linear-gradient(rgba(20, 20, 20, 0.0),rgba(0,0,0,0.5));
 
 }
+
+
+
+<!--JQUERY-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+    <!--OWL CAROUSEL-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <!--CUSTOM JAVASCRIPT-->
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                
+                loop: true,
+                // nav: true,
+                // dots:true,
+                margin:10,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                smartSpeed: 2000,
+                autoplayHoverPause: true,
+                // responsive: {
+                //     0:{
+                //         item: 1,
+                //         nav:false,
+                //     },
+                //     600:{
+                //         item: 2,
+                //         nav:false
+                //     },
+                //     1000:{
+                //         item: 3,
+                //         nav:false
+                //     }
+                // }
+            })
+        })
+
+     
+    </script>

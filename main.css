@@ -315,9 +315,6 @@ Tertiary
     
 }
 
-.service_section1{
-    display: none;
-}
 .man1{
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/Repair\ Steaches.jpg);
 }
@@ -616,9 +613,9 @@ Secondary Section
         background:#52b765;
     }
 
-    .tilt{
+    /* .tilt{
         display: none;
-    }
+    } */
     .tilt_child h1 {
         font-size: 25px;
         letter-spacing: 1px;
@@ -638,18 +635,6 @@ Secondary Section
         color: #fff;
         font-size: 15px;
     
-    }
-    /* .service_section{
-        display: none;
-    }
-    .owl-dots{
-        display: none;
-    } */
-    /* element.style{
-        width: 1200px;
-    } */
-    .owl-carousel .owl-width{
-        width: 200px;
     }
 }
 
