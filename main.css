@@ -655,9 +655,9 @@ Secondary Section
         font-size: 15px;
     
     }
-    .carousel{
-        display: flex;
-    }
+    /* .carousel{
+        max-width: 400px;
+    } */
     .service_section{
         margin: 0;
     }
