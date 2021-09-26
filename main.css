@@ -439,10 +439,11 @@ CONTAINER
 .circle-img{
     position: absolute;
     display: flex;
+    justify-content: space-between;
 }
 .circle-img img{
-    width: 60%;
-    
+    width: 120px;
+    position: absolute;
     margin-left: -20px;
 }
 
@@ -514,8 +515,9 @@ MEDIA QUARY FOR 540
     }
     .big-number-circle{
         margin-top: 50px;
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
     }
 
 
