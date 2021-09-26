@@ -354,7 +354,7 @@ Tertiary
     width: 15px;
     height: 15px;
     margin-left: 20px;
-    background-color: #7b7b7b !important;
+    background-color: #e2e2e2 !important;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -654,14 +654,13 @@ Secondary Section
     .this_man p{
         color: #fff;
         font-size: 15px;
-    
     }
     .carousel{
         max-width: 95%;
     }
-    /* .service_section{
-        margin: 0 10px;
-    } */
+    .service_section{
+        margin: 20px 0;
+    }
 }
 
 
