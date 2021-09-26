@@ -449,7 +449,9 @@ CONTAINER
     position: absolute;
     margin-left: -40px;
 }
-
+.zombie{
+    display: none;
+}
 .big-number-circle strong{
     font-size: 120px;
     top: 4px;
@@ -472,6 +474,48 @@ CONTAINER
     color: #7b7b7b;
     font-weight: 500;
     line-height: 1.5em;
+}
+.switch{
+    text-align: center;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.progress::before{
+    content: '';
+    border: 2px dashed #999;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    align-items: center;
+    /* transform: translateY(-50%); */
+    /* height: 4px; */
+    width: 100%;
+    z-index: -1;
+}
+
+.circle {
+    background-color: #fff;
+    color: #999;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    justify-content: center;
+    border: 3px solid #999;
+    transition: 0.4s ease;
 }
 
 
@@ -541,7 +585,13 @@ MEDIA QUARY FOR 540
         margin-right: -12px;
         margin-left: 130px;
     }
-
+    .short_clip {
+        width: 100%;
+    }
+    .circle{
+        height: 35px;
+        width: 35px;
+    }
 }
 
 
