@@ -442,9 +442,11 @@ CONTAINER
     justify-content: space-between;
 }
 .circle-img img{
-    width: 120px;
+    width: 50%;
+    top: -20px;
+    object-fit: cover;
     position: absolute;
-    margin-left: -20px;
+    margin-left: -30px;
 }
 
 .big-number-circle strong{
