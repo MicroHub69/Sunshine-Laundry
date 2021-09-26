@@ -364,6 +364,99 @@ Tertiary
 
 
 
+/* =======
+CONTAINER
+==========*/
+.container{
+    padding: 0 100px;
+}
+.note-on-Delivery{
+    width: 40%;
+}
+.note-on-Delivery p{
+    font-size: 20px;
+    color: #52b765;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.note-on-Delivery h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.note-on-Delivery h5{
+    font-size: 17px;
+    color: #7b7b7b;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+.note-on-Delivery button{
+    padding: 10px 17px;
+    background-color: #52b765;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 600;
+    border: 1px solid transparent;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.short_clip{
+    width: 50%;
+}
+.big-number-circle{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    background-color: #fff;
+    width: 435px;
+    height: 435px;
+    border: 13px solid #f1f4f1;
+    border-radius: 50%;
+    margin-top: 50px;
+    -webkit-box-shadow: 0 10px 18px rgb(241 241 241 / 75%);
+    box-shadow: 0 10px 18px rgb(241 241 241 / 75%);
+    padding: 46px 0 0 0;
+}
+.circle-img{
+    position: absolute;
+    display: flex;
+}
+.circle-img img{
+    width: 60%;
+    
+    margin-left: -20px;
+}
+
+.big-number-circle strong{
+    font-size: 120px;
+    top: 10px;
+    position: absolute;
+    left: 35%;
+    color: #f1f4f1; 
+}
+
+
+
+
 
 
 
@@ -419,7 +512,11 @@ MEDIA QUARY FOR 540
     .form li a{
         color: #fff;
     }
-    
+    .big-number-circle{
+        margin-top: 50px;
+        width: 350px;
+        height: 350px;
+    }
 
 
 }
@@ -661,6 +758,25 @@ Secondary Section
     .service_section{
         margin: 20px 0;
     }
+    .owl-dot{
+        width: 10px;
+        height: 10px;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .box{
+        display: block;
+        
+    }
+    .note-on-Delivery{
+        width: 100%;
+    }
+    /* .big-number-circle{
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+    } */
 }
 
 
