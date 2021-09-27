@@ -273,7 +273,7 @@
 
 
             <div class="short_clip">
-                <div class="big-number-circle">
+                <div class="big-number-circle" id="first">
                     <strong>01</strong>
                     <div class="circle-img">
                         <img src="images/LaundryBus.png" alt="">
@@ -286,7 +286,7 @@
                     </div>
                 </div>
 
-                <div class="big-number-circle zombie">
+                <div class="big-number-circle zombie" id="second">
                     <strong>02</strong>
                     <div class="circle-img">
                         <img src="images/PackCloth.png" alt="">
@@ -300,7 +300,7 @@
                     </div>
                 </div>
 
-                <div class="big-number-circle zombie">
+                <div class="big-number-circle zombie" id="third">
                     <strong>03</strong>
                     <div class="circle-img">
                         <img src="images/HangWell.png" alt="">
@@ -313,7 +313,7 @@
                     </div>
                 </div>
 
-                <div class="big-number-circle zombie">
+                <div class="big-number-circle zombie" id="forth">
                     <strong>04</strong>
                     <div class="circle-img">
                         <img src="images/WeWash.png" alt="">
@@ -327,14 +327,22 @@
                 </div>
 
                 <div class="switch">
-                    <ul class="progress">
+                    <ul class="progress-container">
+                        <div class="progress" id="progress"></div>
                         <li class="circle on">1</li>
-                        <li class="circle">2</li>
-                        <li class="circle">3</li>
-                        <li class="circle">4</li>
+                        <li class="circle" id="num2">2</li>
+                        <li class="circle" id="num3">3</li>
+                        <li class="circle" id="num4">4</li>
                     </ul>
                 </div>
+
+                <div> 
+                    <button id="prev" onclick="back();">Prev</button>
+                    <button id="next" onclick="shown();">Next</button>
+                </div>
             </div>
+
+            
 
 
             
@@ -380,5 +388,6 @@
     <script src="assets/js/slide.js"></script>
     <script src="assets/js/auto.js"></script>
     <script src="assets/js/big_page.js"></script>
+    <script src="assets/js/int_change.js"></script>
 </body>
 </html>

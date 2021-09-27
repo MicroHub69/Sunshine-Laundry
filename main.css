@@ -478,29 +478,42 @@ CONTAINER
 .switch{
     text-align: center;
 }
-.progress{
+.progress-container{
     display: flex;
     justify-content: center;
     justify-content: space-between;
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 0%;
     align-items: center;
     cursor: pointer;
     z-index: -1;
     transition: 0.4s ease;
+    max-width: 100%;
+    width: 650px;
 }
-.progress::before{
+.progress-container::before{
     content: '';
-    border: 2px dashed #999;
+    border: 2px solid #999;
     position: absolute;
     top: 50%;
     left: 0;
     align-items: center;
-    /* transform: translateY(-50%); */
+    transform: translateY(-50%);
     /* height: 4px; */
     width: 100%;
     z-index: -1;
+}
+.progress {
+    border: 2px solid #52b765;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    align-items: center;
+    z-index: -1;
+    transition: 0.5s ease;
 }
 
 .circle {
@@ -515,7 +528,12 @@ CONTAINER
     justify-content: space-between;
     justify-content: center;
     border: 3px solid #999;
-    transition: 0.4s ease;
+    transition: 0.5s ease;
+}
+.circle.on{
+    background-color: #52b765;
+    border: 2px solid #e2e2e2;
+    color: #fff;
 }
 
 

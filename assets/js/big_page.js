@@ -1,34 +1,49 @@
-if($(window).width() > 900){
-  
-}else{  ///Mobile
-var index = 0;
-var slides = document.querySelectorAll(".slides");
-var dot = document.querySelectorAll(".dot");
+const progress = document.getElementById('progress')
+const prev = document.getElementById('prev')
+const next = document.getElementById('next')
+const circles = document.querySelectorAll('.circle')
 
-function changeSlide(){
+let currentActive = 1
 
-  if(index<0){
-    index = slides.length-1;
-  }
-  
-  if(index > slides.length-1){
-    index = 0;
-  }
-  
-  for(let i = 0;i < slides.length; i++){
-    slides[i].style.display = "none";
-    dot[i].classList.remove("active");
-  }
-  
-  slides[index].style.display = "block";
-  dot[index].classList.add("active");
-  
-  index++;
-  
-  setTimeout(changeSlide,8000);
-  
+next.addEventListener('click', () => {
+    currentActive++
+
+    if(currentActive > circles.length) {
+        currentActive = circles.length
+    }
+
+    update()
+})
+
+prev.addEventListener('click', () => {
+    currentActive--
+
+    if(currentActive < 1) {
+        currentActive = 0
+    }
+
+    update()
+})
+
+function update() {
+    circles.forEach((circle, idx) => {
+        if(idx < currentActive) {
+            circle.classList.add('on')
+        } else {
+            circle.classList.remove('on')
+        }
+    })
+
+    const actives = document.querySelectorAll('.on')
+
+    progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + '%'
+
+    if(currentActive === 1) {
+        prev.disabled = true
+    } else if(currentActive === circles.length) {
+        next.disabled = true
+    } else {
+        prev.disabled = false
+        next.disabled = false
+    }
 }
-}///Mobile
-
-
-changeSlide();
