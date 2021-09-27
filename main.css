@@ -542,6 +542,7 @@ CONTAINER
 
 
 
+
 /* ========================
  ALL FOCUS UPON SELECTION
 =========================== */
@@ -618,7 +619,7 @@ MEDIA QUARY FOR 540
 /* ================
 MEDIA QUARY FOR 800
 ====================*/
-@media(max-width:992px){
+@media(max-width:780px){
   
     .burger{
         display: block;
@@ -884,7 +885,7 @@ Secondary Section
 MEDIA QUARY FOR 992px
 ====================*/
 
-@media(min-width: 992px){
+@media(min-width: 768px){
     .num_circle{
         position: absolute;
         left: 42%;
@@ -920,6 +921,9 @@ MEDIA QUARY FOR 992px
         object-fit: cover;
         position: absolute;
         margin-left: -50px;
+    }
+    .invade{
+        margin-top: 100px;
     }
 }
 
