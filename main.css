@@ -501,7 +501,7 @@ CONTAINER
     align-items: center;
     transform: translateY(-50%);
     /* height: 4px; */
-    width: 90%;
+    width: 92%;
     z-index: -1;
 }
 .progress {
@@ -534,6 +534,23 @@ CONTAINER
     background-color: #52b765;
     border: 2px solid #e2e2e2;
     color: #fff;
+}
+.switch-class{
+    text-align: center;
+}
+
+.switch-class button{
+    height: 20px;
+    width: 20px;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background-color: #e2e2e2;
+    transition: 0.3s;
+}
+.switch-class button:hover{
+    background-color: #52b765;
 }
 
 
@@ -869,6 +886,10 @@ Secondary Section
         width: 320px;
         height: 320px;
     }
+    .switch-class button{
+        height: 15px;
+        width: 15px;
+    }
 }
 
 
@@ -924,6 +945,9 @@ MEDIA QUARY FOR 992px
     }
     .invade{
         margin-top: 100px;
+    }
+    .note-on-Delivery button {
+        margin-top: 75px;
     }
 }
 
