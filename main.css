@@ -597,7 +597,7 @@ CONTAINER
 /* ================
 MEDIA QUARY FOR 540
 ====================*/
-@media(max-width:414px){
+@media(max-width:660px){
     nav{
         padding: 0 27px;
     }
@@ -640,9 +640,9 @@ MEDIA QUARY FOR 540
 
 
 
-/* =======================
-MEDIA QUARY FOR MAX-WIDTH 800
-==========================*/
+/* ==========================
+MEDIA QUARY FOR MAX-WIDTH 768px
+============================*/
 
 
 @media(max-width:768px){
@@ -922,7 +922,7 @@ MEDIA QUARY FOR MIN-WIDTH 768px
     }
     .Pck {
         margin-right: -30px;
-        margin-left: 100px;
+        margin-left: 125px;
     }
     .big-number-circle {
         margin-top: 150px;
@@ -973,7 +973,7 @@ MEDIA QUARY FOR MIN-WIDTH 1024px
     }
     .circle-img img{
         width: 60%;
-        top: -120px;
+        top: -100px;
         object-fit: cover;
         position: absolute;
         margin-left: -50px;
@@ -993,7 +993,7 @@ MEDIA QUARY FOR MIN-WIDTH 1024px
     }
     .Pck {
         margin-right: -30px;
-        margin-left: 130px;
+        margin-left: 200px;
     }
     
 }
@@ -1007,10 +1007,6 @@ MEDIA QUARY FOR MIN-WIDTH 1024px
     }
     .exp{
         width: 50%;
-    }
-    .Pck {
-        margin-right: -30px;
-        margin-left: 200px;
     }
 }
 
