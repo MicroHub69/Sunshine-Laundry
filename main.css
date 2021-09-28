@@ -636,7 +636,7 @@ MEDIA QUARY FOR 540
 /* ================
 MEDIA QUARY FOR 800
 ====================*/
-@media(max-width:780px){
+@media(max-width:768px){
   
     .burger{
         display: block;
@@ -894,8 +894,18 @@ Secondary Section
 
 
 
+/* ================
+MEDIA QUARY FOR 992px
+====================*/
 
-
+@media(min-width: 768px){
+    .box{
+        display: flex;
+    }
+    .exp img{
+        width: 30%;
+    }
+}
 
 
 
@@ -906,7 +916,7 @@ Secondary Section
 MEDIA QUARY FOR 992px
 ====================*/
 
-@media(min-width: 768px){
+@media(min-width: 1024px){
     .num_circle{
         position: absolute;
         left: 42%;
