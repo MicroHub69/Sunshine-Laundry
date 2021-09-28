@@ -1,4 +1,4 @@
-if($(window).width() > 900){
+if($(window).width() > 800){
   
 } else {  ///Mobile
 var index = 0;
