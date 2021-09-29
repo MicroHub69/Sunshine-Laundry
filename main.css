@@ -653,6 +653,7 @@ video:focus{
     position: absolute;
     top: 50%;
     left: 50%;
+    cursor: pointer;
     text-align: center;
     width: 130px;
     height: 130px;
@@ -671,6 +672,11 @@ video:focus{
     box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
 }
 
+.our-approach-div h2{
+    color: #323232;
+    font-size: 35px;
+    margin-top: 30px;
+}
 
 /* ========================
  ALL FOCUS UPON SELECTION
@@ -1096,10 +1102,40 @@ MEDIA QUARY FOR MIN-WIDTH 768px
         padding-bottom: 20px;
         object-fit: cover;
     }
+    .click-event img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .the-switch-button{
+        display: flex;
+    }
+    .first-head p{
+        font-size: 22px;
+        color: #52b765;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+    .first-head h1{
+        font-size: 35px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .fancy-button,.fancy-button1,.fancy-button2{
+        padding: 20px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: #fff;
+        width: 100%;
+        margin: 10px 0;
+        border: 1px solid transparent;
+        box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
+    }
 }
 
 
-
+/* ================================================================================================ */
 
 
 
@@ -1195,32 +1231,6 @@ MEDIA QUARY FOR MIN-WIDTH 1024px
     }
     .content-upon-washing-machine p{
         font-size: 25px;
-    }
-    .the-switch-button{
-        display: flex;
-    }
-    .first-head p{
-        font-size: 22px;
-        color: #52b765;
-        font-weight: 600;
-        letter-spacing: 1px;
-        padding-bottom: 10px;
-    }
-    .first-head h1{
-        font-size: 35px;
-        font-weight: 700;
-        padding-bottom: 30px;
-    }
-    .fancy-button,.fancy-button1,.fancy-button2{
-        padding: 20px 20px;
-        font-size: 22px;
-        font-weight: 600;
-        cursor: pointer;
-        background-color: #fff;
-        width: 100%;
-        margin: 10px 0;
-        border: 1px solid transparent;
-        box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
     }
 }
 
