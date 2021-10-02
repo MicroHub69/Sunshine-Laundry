@@ -636,16 +636,7 @@ CONTAINER
 .fancy-button:hover,.fancy-button1:hover,.fancy-button2:hover{
     color: #52b765;
 }
-.video video{
-    width: 100%;
-    
-}
-video:focus{
-    outline: none;
-}
-#videoClass{
-    position: relative;
-}
+
 .play-box{
     font-size: 30px;
     background-color: #52b765;
@@ -655,9 +646,10 @@ video:focus{
     left: 50%;
     cursor: pointer;
     text-align: center;
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    box-shadow: rgb(52 134 85 / 80%) 5px 13px 38px;
     transform: translate(-50%,-50%);
 }
 .play-box::before{
@@ -677,11 +669,30 @@ video:focus{
     font-size: 35px;
     margin-top: 30px;
 }
+.our-approach-div p{
+    color: #999;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.video{
+    position: relative;
+}
+.video img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
 
 /* ========================
  ALL FOCUS UPON SELECTION
 =========================== */
-.body:active{
+.body:focus{
     background-color: whitesmoke;
     border: none;
     outline: none;
@@ -1014,6 +1025,7 @@ Secondary Section
         width: 100%;
     }
     .play-box{
+        box-shadow: rgb(52 134 85 / 80%) 5px 13px 38px;
         width: 70px;
         height: 70px;
     }
@@ -1131,6 +1143,9 @@ MEDIA QUARY FOR MIN-WIDTH 768px
         margin: 10px 0;
         border: 1px solid transparent;
         box-shadow: 0 10px 23px rgb(157 174 185 / 15%);
+    }
+    .video-text{
+    display: flex;
     }
 }
 
