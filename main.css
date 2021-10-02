@@ -349,13 +349,13 @@ Tertiary
 
 .owl-dots{
     text-align: center;
-    margin-bottom: 30px;
+    
 }
 .owl-dot{
     outline: 0;
     width: 15px;
     height: 15px;
-    margin-left: 20px;
+    margin: 20px 10px;
     background-color: #e2e2e2 !important;
     border-radius: 50%;
     cursor: pointer;
@@ -696,7 +696,6 @@ p{
 }
 .emphasis{
     display: flex;
-    justify-content: space-between;
 }
 .tag,.tag1,.tag2{
     width: 50px;
@@ -780,6 +779,7 @@ video:focus{
 
 
 
+
 /* ========================
  ALL FOCUS UPON SELECTION
 =========================== */
@@ -787,6 +787,10 @@ video:focus{
     background-color: whitesmoke;
     border: none;
     outline: none;
+}
+.fancy-button:focus,.fancy-button1:focus,.fancy-button2:focus{
+    color: white;
+    background-color: #52b765;
 }
 .burger:active{
     outline: 0;
