@@ -1,11 +1,5 @@
-var videoPlayer = document.getElementById("videoPlayer");
-var myVideo = document.getElementById("myVideo");
-
-function stopVideo(){
-    videoPlayer.style.display = "none"
-}
-
-function playVideo(file){
-    myVideo.src = file;
-    videoPlayer.style.display = "block"
-}
+$(document).ready(function(){
+    $(".first-question").click(function(){
+        $(".first-answer").toggle(500)
+    })
+})
