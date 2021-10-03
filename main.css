@@ -775,7 +775,16 @@ video:focus{
     right: 10px;
     width: 30px;
 }
-
+.toggle-img--FAQ{
+    margin: 30px 0;
+}
+.toggle-on-click{
+    display: none;
+}
+.toggle-img img{
+    width: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -1126,6 +1135,9 @@ Secondary Section
     }
     .play-box::before{
         font-size: 22px;
+    }
+    .toggle-img img{
+        height: 40vh;
     }
 }
 
