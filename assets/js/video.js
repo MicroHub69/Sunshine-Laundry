@@ -10,5 +10,28 @@ $(document).ready(function(){
     })
     $(".first-question3").click(function(){
         $(".first-answer3").toggle(500)
+    })//////FAQ TOGGLE CLASS
+
+
+
+    $(".fancy-button").click(function(){
+        $(".toggle-on-click").show(function(){
+            $(".toggle-img--FAQ").hide()
+        })
     })
-})
+    $(".fancy-button1").click(function(){
+        $(".toggle-on-click").hide( function(){
+            $(".toggle-img--FAQ").show()
+        })
+    })
+    $(".fancy-button2").click(function(){
+        $(".toggle-on-click").show()
+    })
+
+
+
+
+});
+
+
+

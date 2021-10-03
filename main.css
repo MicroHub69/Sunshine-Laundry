@@ -821,7 +821,9 @@ p.first-answer,p.first-answer1,p.first-answer2,p.first-answer3{
 .first-question .fa,.first-question1 .fa,.first-question2 .fa,.first-question3 .fa{
     margin-top: 30px;
 }
-
+.toggle-img--FAQ{
+    display: none;
+}
 
 
 
