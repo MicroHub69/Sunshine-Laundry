@@ -20,8 +20,8 @@ $(document).ready(function(){
         })
     })
     $(".fancy-button1").click(function(){
-        $(".toggle-on-click").hide( function(){
-            $(".toggle-img--FAQ").show()
+        $(".toggle-img--FAQ").show(function(){
+            $(".toggle-on-click").hide()
         })
     })
     $(".fancy-button2").click(function(){
