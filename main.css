@@ -629,6 +629,7 @@ CONTAINER
    font-weight: 600;
    background-color: #fff;
    width: 100%;
+   color: #323232;
    cursor: pointer;
    margin: 10px 0;
    border: 1px solid transparent;
@@ -778,9 +779,9 @@ video:focus{
 .toggle-img--FAQ{
     margin: 30px 0;
 }
-.toggle-on-click{
+/* .toggle-on-click{
     display: none;
-}
+} */
 
 .toggle-img img{
     width: 100%;
@@ -808,14 +809,24 @@ video:focus{
 }
 .first-question h3,.first-question1 h3,.first-question2 h3,.first-question3 h3{
     font-size: 17px;
+    font-weight: 600;
+    color: #323232;
     transition: 0.5s;
     padding: 17px 20px 15px 0;
 }
 .first-question:hover,.first-question1:hover,.first-question2:hover,.first-question3:hover{
     color: #52b765;
 }
-p.first-answer,p.first-answer1,p.first-answer2,p.first-answer3{
+p.first-answer1,p.first-answer2,p.first-answer3{
     display: none;
+    font-size: 15px;
+    color: #000;
+    margin-top: 10px;
+}
+p.first-answer{
+    font-size: 15px;
+    color: #000;
+    margin-top: 10px;
     margin-top: 10px;
 }
 .first-question .fa,.first-question1 .fa,.first-question2 .fa,.first-question3 .fa{
@@ -967,7 +978,9 @@ MEDIA QUARY FOR MAX-WIDTH 768px
     .primary_banner1{
         display: none;
     }
-
+    p.first-answer{
+        display: none;
+    }
 
 
     /* =====>
