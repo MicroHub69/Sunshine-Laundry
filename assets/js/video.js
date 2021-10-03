@@ -2,4 +2,13 @@ $(document).ready(function(){
     $(".first-question").click(function(){
         $(".first-answer").toggle(500)
     })
+    $(".first-question1").click(function(){
+        $(".first-answer1").toggle(500)
+    })
+    $(".first-question2").click(function(){
+        $(".first-answer2").toggle(500)
+    })
+    $(".first-question3").click(function(){
+        $(".first-answer3").toggle(500)
+    })
 })
