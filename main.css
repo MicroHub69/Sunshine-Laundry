@@ -396,7 +396,7 @@ CONTAINER
     padding: 10px 17px;
     background-color: #52b765;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: 600;
     border: 1px solid transparent;
 }
@@ -841,13 +841,31 @@ p.first-answer{
     display: none;
     vertical-align: middle;
 }
-.why-choose{
-    text-align: center;
-
-}
 .why-choose-us{
     margin-top: 50px;
 }
+.why-choose p{
+    margin-bottom: 30px;
+}
+.why-choose h4{
+    font-size: 28px;
+    line-height: 38px;
+    font-family: Poppins,sans-serif;
+    color: #323232;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+.value-experience h4{
+    font-size: 23px;
+    line-height: 30px;
+    font-family: Poppins,sans-serif;
+    color: #323232;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
 
 /* ========================
  ALL FOCUS UPON SELECTION
