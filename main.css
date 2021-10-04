@@ -779,9 +779,9 @@ video:focus{
 .toggle-img--FAQ{
     margin: 30px 0;
 }
-/* .toggle-on-click{
+.toggle-on-click{
     display: none;
-} */
+}
 
 .toggle-img img{
     width: 100%;
@@ -835,8 +835,19 @@ p.first-answer{
 .toggle-img--FAQ{
     display: none;
 }
+.replace-plus .material-icons-outlined{
+    background-color: #fdfefe;
+    color: #000;
+    display: none;
+    vertical-align: middle;
+}
+.why-choose{
+    text-align: center;
 
-
+}
+.why-choose-us{
+    margin-top: 50px;
+}
 
 /* ========================
  ALL FOCUS UPON SELECTION
