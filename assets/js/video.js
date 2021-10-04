@@ -2,16 +2,18 @@ $(document).ready(function(){
 
     $(".fancy-button").click(function(){
         $(".toggle-on-click").show(function(){
-            $(".toggle-img--FAQ").hide()
+            $(".toggle-img--FAQ,.why-choose-us").hide()
         })
     })
     $(".fancy-button1").click(function(){
         $(".toggle-img--FAQ").show(function(){
-            $(".toggle-on-click").hide()
+            $(".toggle-on-click,.why-choose-us").hide()
         })
     })
     $(".fancy-button2").click(function(){
-        $(".toggle-on-click").show()
+        $(".why-choose-us").show(function(){
+            $(".toggle-on-click,.toggle-img--FAQ").hide()
+        })
     })/////MAIN BUTTON
 
 
