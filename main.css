@@ -779,9 +779,9 @@ video:focus{
 .toggle-img--FAQ{
     margin: 30px 0;
 }
-.toggle-on-click{
+/* .toggle-on-click{
     display: none;
-}
+} */
 
 .toggle-img img{
     width: 100%;
@@ -864,6 +864,9 @@ p.first-answer{
     font-weight: 600;
     margin: 0;
     padding: 0 0 10px 0;
+}
+.why-choose-us{
+    display: none;
 }
 
 
@@ -1474,6 +1477,9 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         width: 90%;
         margin: 50px 50px;
         height: 350px;
+    }
+    .why-choose-us{
+        width: 70%;
     }
 }
 
