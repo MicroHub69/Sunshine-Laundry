@@ -868,6 +868,16 @@ p.first-answer{
 .why-choose-us{
     display: none;
 }
+.hover-prize{
+    text-align: center;
+}
+.hover-prize p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #52b765;
+    font-size: 17px;
+    font-weight: 600;
+}
 
 
 /* ========================
