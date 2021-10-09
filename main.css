@@ -876,6 +876,16 @@ p.first-answer{
     margin-bottom: 5px;
     color: #52b765;
     font-size: 17px;
+    font-weight: 700;
+}
+.hover-prize h3{
+    color: #323232;
+    font-size: 25px;
+    font-weight: 600;
+}
+.hover-prize h6{
+    color: #323232;
+    font-size: 22px;
     font-weight: 600;
 }
 
