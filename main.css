@@ -297,11 +297,7 @@ Tertiary
     font-weight: 600;
     color: #323232;
 }
-/* .prize-carousel{
-    width: 80%;
-    display: flex;
-    margin: 0 9px;
-} */
+
 .carousel{
     width: 80%;
     display: flex;
@@ -686,7 +682,7 @@ CONTAINER
     margin-bottom: 20px;
 }
 p{
-    color: #999;
+    color: #7b7b7b;
     font-size: 17px;
     font-weight: 400;
     line-height: 30px;
@@ -1532,6 +1528,14 @@ MEDIA QUARY FOR MIN-WIDTH 924px
     }
     .why-choose-us{
         width: 70%;
+    }
+    .price-tag-container{
+        background-color: #fff;
+        max-width: 310px;
+        padding: 50px 20px;
+        /* float: left; */
+        margin: 50px auto;
+        box-shadow: 0 10px 20px rgb(157 174 185 / 15%);
     }
 }
 

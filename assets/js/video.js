@@ -35,12 +35,7 @@ $(document).ready(function(){
 
 
 
-    $(".prize-carousel").owlCarousel({
-     loop: true,
-     
-     autoplayTimeout: 4000,
-     autoplayHoverPause:true
-    });
+  
 
 
 
