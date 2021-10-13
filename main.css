@@ -872,11 +872,11 @@ p.first-answer{
     text-align: center;
 }
 .hover-prize p{
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 5px;
     color: #52b765;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .hover-prize h3{
     color: #323232;
@@ -885,16 +885,35 @@ p.first-answer{
 }
 .hover-prize h6{
     color: #999;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 25px;
 }
 
 .price-tag-container{
     background-color: #fff;
-    max-width: 350px;
+    max-width: 300px;
+    padding: 50px 20px;
+    /* float: left; */
     margin: 50px auto;
     box-shadow: 0 10px 20px rgb(157 174 185 / 15%);
+}
+.price-tag-container img{
+    width: 100px;
+}
+.price-tag-container h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.price-tag-container p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #7b7b7b;
+}
+.price-tag-container h4{
+    font-size: 28px;
+    color: #52b765;
 }
 
 
