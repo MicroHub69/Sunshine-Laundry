@@ -556,17 +556,11 @@ CONTAINER
 .switch-class button:hover{
     background-color: #52b765;
 }
-/* .machine{
-    position: relative;
-    width: 50%;
-    height: 200vh;
-}
-.machine img{
-    height: 130vh;
+
+.machine3 img{
     width: 100%;
-    padding-bottom: 20px;
     object-fit: cover;
-} */
+}
 .washing-machine{
     margin: 80px 0;
 }
@@ -910,6 +904,32 @@ p.first-answer{
 }
 .price-tag-container h4{
     font-size: 28px;
+    color: #52b765;
+}
+
+.delivery-bus img{
+    margin-top: 40px;
+    width: 100%;
+}
+.bus-info{
+    text-align: center;
+    align-items: center;
+}
+.bus-info h3{
+    font-size: 25px;
+    color: #323232;
+    margin-top: 20px;
+}
+.bus-info h1{
+    font-size: 28px;
+    color: #323232;
+    margin-top: 20px;
+}
+.bus-info p{
+    font-size: 18px;
+    color: #323232;
+}
+.bus-info h3 span{
     color: #52b765;
 }
 
@@ -1589,6 +1609,7 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         padding-bottom: 20px;
         object-fit: cover;
     }
+  
     .machine3 img{
         height: 90vh;
         width: 100%;
