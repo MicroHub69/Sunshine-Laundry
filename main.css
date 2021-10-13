@@ -1501,6 +1501,21 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         padding-bottom: 20px;
         object-fit: cover;
     }
+    .machine1 img{
+        height: 40vh;
+        width: 100%;
+        padding-bottom: 20px;
+        object-fit: cover;
+    }
+    .change-direction{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .change-absolute{
+        position: absolute;
+        left: 30px;
+        margin-top: 70px;
+    }
     .content-upon-washing-machine{
         margin-top: 50px;
     }
@@ -1567,6 +1582,12 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         padding-bottom: 20px;
         object-fit: cover;
     }
+    .machine1 img{
+        height: 90vh;
+        width: 100%;
+        padding-bottom: 20px;
+        object-fit: cover;
+    }
     .content-upon-washing-machine {
         margin-right: 20px;
         position: absolute;
@@ -1580,6 +1601,11 @@ MEDIA QUARY FOR MIN-WIDTH 924px
     .toggle-img img{
         width: 45%;
         height: 80vh;
+    }
+    .change-absolute{
+        position: absolute;
+        left: 40px;
+        margin-top: 70px;
     }
 }
 
