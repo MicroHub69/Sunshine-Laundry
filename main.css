@@ -892,11 +892,7 @@ p.first-answer{
 }
 
 .price-tag-container{
-    background-color: #fff;
-    max-width: 300px;
-    padding: 50px 20px;
-    /* float: left; */
-    margin: 50px auto;
+   
     box-shadow: 0 10px 20px rgb(157 174 185 / 15%);
 }
 .price-tag-container img{
