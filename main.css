@@ -1501,13 +1501,13 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         padding-bottom: 20px;
         object-fit: cover;
     }
-    .machine1 img{
+    .machine3 img{
         height: 40vh;
         width: 100%;
         padding-bottom: 20px;
         object-fit: cover;
     }
-    .change-direction{
+    .changedirection{
         display: flex;
         flex-direction: row-reverse;
     }
@@ -1582,7 +1582,7 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         padding-bottom: 20px;
         object-fit: cover;
     }
-    .machine1 img{
+    .machine3 img{
         height: 90vh;
         width: 100%;
         padding-bottom: 20px;
