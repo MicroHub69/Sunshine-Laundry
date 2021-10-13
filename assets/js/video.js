@@ -31,9 +31,16 @@ $(document).ready(function(){
         $(".first-answer3").toggle(300)
     })//////FAQ TOGGLE CLASS
 
-
-    
 });
+
+
+
+    $(".prize-carousel").owlCarousel({
+     loop: true,
+     
+     autoplayTimeout: 4000,
+     autoplayHoverPause:true
+    });
 
 
 

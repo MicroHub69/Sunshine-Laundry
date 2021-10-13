@@ -297,6 +297,11 @@ Tertiary
     font-weight: 600;
     color: #323232;
 }
+/* .prize-carousel{
+    width: 80%;
+    display: flex;
+    margin: 0 9px;
+} */
 .carousel{
     width: 80%;
     display: flex;
