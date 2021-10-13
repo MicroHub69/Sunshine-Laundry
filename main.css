@@ -906,9 +906,11 @@ p.first-answer{
     font-size: 28px;
     color: #52b765;
 }
-
+.delivery-bus{
+    margin-top: 50px;
+}
 .delivery-bus img{
-    margin-top: 40px;
+    object-fit: cover;
     width: 100%;
 }
 .bus-info{
@@ -916,18 +918,21 @@ p.first-answer{
     align-items: center;
 }
 .bus-info h3{
-    font-size: 25px;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 21px 0 0 0;
+    padding-bottom: 17px;
+    font-weight: 600;
     color: #323232;
-    margin-top: 20px;
 }
 .bus-info h1{
-    font-size: 28px;
+    font-size: 23px;
     color: #323232;
     margin-top: 20px;
 }
 .bus-info p{
-    font-size: 18px;
-    color: #323232;
+    font-size: 16px;
+    color: #7b7b7b;
 }
 .bus-info h3 span{
     color: #52b765;
@@ -1437,6 +1442,41 @@ MEDIA QUARY FOR MIN-WIDTH 768px
     .first-question .fa,.first-question1 .fa,.first-question2 .fa,.first-question3 .fa{
         margin-top: 20px;
        
+    }
+    .delivery-bus{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .delivery-bus img{
+        object-fit: cover;
+        width: 100%;
+        max-width: 400px;
+    }
+    .bus-info{
+        text-align: right;
+        text-align: center;
+        align-items: center;
+    }
+    .bus-info h3{
+        font-size: 24px;
+        line-height: 30px;
+        margin: 21px 0 0 0;
+        padding-bottom: 17px;
+        font-weight: 600;
+        color: #323232;
+    }
+    .bus-info h1{
+        font-size: 23px;
+        color: #323232;
+        margin-top: 20px;
+    }
+    .bus-info p{
+        font-size: 16px;
+        color: #7b7b7b;
+    }
+    .bus-info h3 span{
+        color: #52b765;
     }
 }
 
