@@ -1682,6 +1682,7 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         max-width: 600px;
     }
     .map{
+        margin-top: 40px;
         width: 100%;
         height: 50vh;
     }
