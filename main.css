@@ -1684,6 +1684,7 @@ MEDIA QUARY FOR MIN-WIDTH 924px
     .map{
         margin-top: 40px;
         width: 100%;
+        border: 0;
         height: 50vh;
     }
     .bus-info{
