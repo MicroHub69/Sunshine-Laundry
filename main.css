@@ -1683,16 +1683,7 @@ MEDIA QUARY FOR MIN-WIDTH 924px
     }
 
     /* MEDIA QUARY 768px */
-    @media(max-width: 768px){
-        .b-flex{
-            display: block;
-             justify-content: center;
-        }
-        .main-add-ons{
-            width: 45%;
-            margin: 0 auto;
-        }
-    }
+   
 
 
 
