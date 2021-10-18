@@ -1681,6 +1681,21 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         padding-right: 90px;
         max-width: 600px;
     }
+
+    /* MEDIA QUARY 768px */
+    @media(max-width: 768px){
+        .b-flex{
+            display: block;
+             justify-content: center;
+        }
+        .main-add-ons{
+            width: 45%;
+            margin: 0 auto;
+        }
+    }
+
+
+
     /* =========?=
     GOOGLE MAP
     =======?*/
