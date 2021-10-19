@@ -1682,19 +1682,8 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         max-width: 600px;
     }
 
-  /* =========
-  MIN-WITH FROM 768
-  ============= */
-  @media(min-width: 1024px){
-    .b-flex{
-        display: flex;
-        flex-wrap: no-wrap;
-        justify-content: space-between;
-    }
 
-    .main-add-ons{
-        width: 25%;   
-    }
+    
 
 
 
