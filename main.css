@@ -1682,12 +1682,21 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         max-width: 600px;
     }
 
-    /* last-section-btn */
-    .red-circle div{
+   /* This is the last section on CAREER PAGE */
+    .overall{
+        display: flex;
+        justify-content: center;
+    }
+    .overall div{
         width: 100px;
         height: 100px;
         background-color: #900000;
         border-radius: 50%;
+    }
+
+    .main-text{
+        text-align: center;
+        
     }
    
 
