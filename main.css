@@ -1681,11 +1681,13 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         padding-right: 90px;
         max-width: 600px;
     }
-
+    /* Join btn on image */
   .join-btn{
       background-color: #900000;
       text-align: center;
       align-items: center;
+      width: 50%;
+      padding: 10px 20px;
   }
    
 
