@@ -1685,6 +1685,7 @@ MEDIA QUARY FOR MIN-WIDTH 924px
    /* This is the last section on CAREER PAGE */
     .overall{
         display: flex;
+        padding: 0 100px;
         justify-content: center;
     }
     .overall div{
@@ -1696,9 +1697,22 @@ MEDIA QUARY FOR MIN-WIDTH 924px
 
     .main-text{
         text-align: center;
-        
+        width: 70%;
+        margin: 20px;
     }
-   
+    .main-text h4{
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+    .main-text h2{
+        margin-top: 20px;
+        font-size: 18px;
+        color: #900000;
+    }
+    .main-text p{
+        font-size: 18px;
+    }
 
 
 
