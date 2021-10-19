@@ -1681,14 +1681,14 @@ MEDIA QUARY FOR MIN-WIDTH 924px
         padding-right: 90px;
         max-width: 600px;
     }
-.join-btn a{
-    font-size: 32px;
-    color: white;
-}
-.join-btn p{
-    font-size: 15px;
-    color: white;
-}
+
+    /* last-section-btn */
+    .red-circle div{
+        width: 100px;
+        height: 100px;
+        background-color: #900000;
+        border-radius: 50%;
+    }
    
 
 
