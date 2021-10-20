@@ -1688,7 +1688,16 @@ EVENTS AND PRESENSATION
 ======================*/
 
 
-
+.events{
+    display: flex;
+    justify-content: center;
+}
+.events div{
+    width: 100px;
+    height: 100px;
+    background-color: #900000;
+    border-radius: 50%;
+}
 
 
 
