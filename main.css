@@ -1698,6 +1698,10 @@ EVENTS AND PRESENSATION
     background-color: #900000;
     border-radius: 50%;
 }
+.event-text{
+    width: 60%;
+    margin: 0 20px;
+}
 
 
 
