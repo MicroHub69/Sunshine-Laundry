@@ -1685,16 +1685,15 @@ MEDIA QUARY FOR MIN-WIDTH 924px
 
 /* Option link on the header */
 
-.opt-links{
+.team-carousel{
     text-align: center;
+    background-color: #545454;
+    width: 50%;
+    margin: 0 auto;
 }
-.opt-links a{
-    color: #000;
-}
-.management::before{
-    content: "-";
-    margin: 0 10px;
+.team-carousel h3{
     color: #fff;
+    font-size: 18px;
 }
 
 
