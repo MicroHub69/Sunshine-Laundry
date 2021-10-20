@@ -1684,42 +1684,15 @@ MEDIA QUARY FOR MIN-WIDTH 924px
 
 
 /* ===================
-EVENTS AND PRESENSATION
+    REGISTARS
 ======================*/
 
-
-.events{
-    display: flex;
-    justify-content: center;
+.registar{
+    background-color: #ccc;
+    padding: 20px;
 }
-.events div{
-    width: 100px;
-    height: 100px;
-    background-color: #900000;
-    border-radius: 50%;
-}
-.event-text{
+.reg-text{
     width: 60%;
-    margin: 0 20px;
-}
-.events h4{
-    line-height: 25px;
-    
-}
-.events p{
-    line-height: 10px;
-    color: #900000;
-}
-
-@media(max-width:768px){
-    .events{
-        display: block;
-        justify-content: center;
-    }
-    .events div{
-        width: 80px;
-        height: 80px;
-    }
 }
 
 
