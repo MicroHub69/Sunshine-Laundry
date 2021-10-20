@@ -1683,7 +1683,19 @@ MEDIA QUARY FOR MIN-WIDTH 924px
     }
 
 
-    
+/* Option link on the header */
+
+.opt-links{
+    text-align: center;
+}
+.opt-links a{
+    color: #000;
+}
+.management::before{
+    content: "-";
+    margin: 0 10px;
+    color: #fff;
+}
 
 
 
