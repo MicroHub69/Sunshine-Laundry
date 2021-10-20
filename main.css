@@ -1711,6 +1711,17 @@ EVENTS AND PRESENSATION
     color: #900000;
 }
 
+@media(max-width:768px){
+    .events{
+        display: block;
+        justify-content: center;
+    }
+    .events div{
+        width: 80px;
+        height: 80px;
+    }
+}
+
 
 
 
