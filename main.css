@@ -1702,6 +1702,14 @@ EVENTS AND PRESENSATION
     width: 60%;
     margin: 0 20px;
 }
+.events h4{
+    line-height: 25px;
+    
+}
+.events p{
+    line-height: 10px;
+    color: #900000;
+}
 
 
 
