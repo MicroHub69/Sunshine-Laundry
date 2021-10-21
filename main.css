@@ -1691,8 +1691,8 @@ MEDIA QUARY FOR MIN-WIDTH 924px
     background-color: #ccc;
     padding: 20px;
 }
-.reg-text{
-    width: 60%;
+.reg-text h3{
+    color: #900000;
 }
 
 
