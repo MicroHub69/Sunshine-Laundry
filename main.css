@@ -1686,53 +1686,13 @@ MEDIA QUARY FOR MIN-WIDTH 924px
 /* ===================
     DOWNLOAD LINKS
 ======================*/
-
-.free{
-    display: flex;
-    justify-content: space-between;
+figure{
+    background-color: #fff;
+    height: auto;
+    padding-bottom: 20px;
+    border: 3px solid #900000;
+    border-radius: 10px;
 }
-aside{
-    display: flex;
-    justify-content: space-around;
-    width: 20%;
-}
-aside h4{
-    font-size: 18px;
-}
-.free span{
-    font-size: 18px;
-}
-.free span::before{
-    content: "+";
-    margin-right: 30px;
-    color: #900000;
-}
-aside p{
-    font-size: 18px;
-    color: #900000;
-}
-
-/* Media for Download Links */
-@media(max-width: 600px){
-    .free{
-        display: block;
-        justify-content: center;
-    }
-    aside{
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-}
-@media(min-width: 768px){
-    .free{
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-
-
 
 
     /* =========?=
