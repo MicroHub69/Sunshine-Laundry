@@ -1689,10 +1689,26 @@ MEDIA QUARY FOR MIN-WIDTH 924px
 figure{
     background-color: #fff;
     height: auto;
-    width: 350px;
+    width: 340px;
     padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
     border: 3px solid #900000;
     border-radius: 10px;
+}
+.personal-img{
+    width: 333px;
+    background-color: #f4f4f4;
+    height: 50vh;
+}
+.dtl-linkedin{
+    background-color: #900000;
+    width: 70%;
+    color: #fff;
+    margin: 0 auto;
+}
+.dtl-linkedin img{
+    
 }
 
 
