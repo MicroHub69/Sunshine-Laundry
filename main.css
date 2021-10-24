@@ -80,6 +80,7 @@ figure svg{
     background-color: #ccc;
     width: 150px;
     margin: 20px 0;
+    border-radius: 10px;
     text-align: center;
     padding: 15px 20px;
 }
@@ -92,8 +93,17 @@ figure svg{
 }
 
 
-
-
+/* ===================
+    THIS MEDIA QUARY STARTED FROM 992px 
+======================*/
+@media(min-width: 992px){
+    .wrap-all{
+        display: flex;
+    }
+    .about{
+        padding: 25px 30px;
+    }
+}
 
 
 
