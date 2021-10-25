@@ -1,44 +1,10 @@
-.about-us-blog{
-    background-color: #ccc;
-    width: 350px;
-    height: 40vh;
-    margin: 0 auto;
-    position: relative;
-    border-radius: 10px;
-}
-
-.about-us-blog img{
-    width: 350px;
-    height: 40vh;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
 /* ========
-RATING...
-===========*/
-.rating{
-    background-color: #900000;
-    padding: 10px 20px;
-    position: relative;
-    top: -60px;
-    width: 90%;
-    margin: 0 auto;
-    border: 3px solid #fff;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
+PROCESS...
+==========*/
+.main-process{
+    text-align: center;
+    margin: 20px auto;
 }
-.flex-grid h3{
-    color: #fff;
-    font-size: 22px;
-    
-}
-.flex-grid p{
-    color: #fff;
-    font-size: 15px;
-}
-
 
 
 
@@ -48,12 +14,7 @@ RATING...
 =========================*/
 
 @media(min-width: 992px){
-    .wrap-all{
-        display: flex;
-    }
-    .about{
-        padding: 25px 30px;
-    }
+   
 }
 
 

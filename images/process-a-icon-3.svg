@@ -1,0 +1,32 @@
+<svg id="process-a-icon-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="91" viewBox="0 0 93 91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e7b03c;
+        stroke: #0d0925;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        font-size: 11px;
+        fill: #0d0925;
+        text-anchor: middle;
+        font-family: Nunito;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Icon">
+    <rect id="Rectangle" class="cls-1" width="91" height="91" rx="45.5" ry="45.5"/>
+    <image id="Icon-2" data-name="Icon" x="29" y="29" width="33" height="33" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAADAklEQVRYhcWXS0hVURSGv5u3W1paiBARlRWZEEIgPYiyknAYIRENwqjASc9hEA2CJlHQY1BQEBVRUFCJDbKihxUN1CY9ZiZFZRhIpr306o0F/4ndaR9v6r36w+HsvfY+a/97rbXX2ieWnzu/CLgBrGD08RiojgNPgGLg/Agp/AQ+SVcX0CF5DJin8ffO/DnANlvfSCwAaoGzGbDDXOCN2mV69wOvQ7IU8BK4D1yOS5ifAQIVwHXA3LsbOOGMTQRWAQ2ObDbQbY1xEnRmgESjCBhOyg3B8wu4E5K9AwptsgVmT8iHw4WZ/RtQAPQGu9SCtlhS6wQw2XTzQlyTkmI7Ukxw9Ex2dPlkvXpiRiIPOABczACJoaIGuBDExLQxIPBn3bhnYDGwXP7KNNqBe8ArV6+PxCWgRHGSacSVH8rSkShSOq3IAonGMAGcPOEiB/iRBQJIbyws9FliAKgC6rNAosqXGH0k9gEbgNIskLjrSwU+Emf0jBp8MTHq8FlirZ6ZKrkuUirLp1QHrDruUBUuDAqSB/0qWEmdkAfp3HFOBNpDljICCWCziNTpAnNU492SF4f09eoyU6P+c6A8HYlJwCNgdcSuUk4hSqhyBlWzGvjo+WYvsFQnoy886IuJvghyOJefIJvm6txbqm8FPujy4sIse0zJ77audWlJpHwJRRgf6g+oCn8BKuWih8oHhqfAVmCj2rN8SqN2PFSUapH1wH7gFtCmwDUrNUtfQsTTWmI4cP18WBYrkWWanbF/CGSSRHCUy0WoXi7YBTxz5iWyQSL4vglYqV1bex1wTe5ZBrRoXquugGlJ2KTvEYsGxSdHb9v1V+C46sIhYIkzv05BPlVxMkM/SH8hqoouBDZ5klWB2sHpSUq2R7tt0O7znO8s6R0BTqvfQgg+EsZ4C3Alwhq2+xdqfwZ6lLwW6TIUhQFtqul/SGwHDka4KqZFA5O2609qivqDxVi/rPk2ikRHaHLbIMrC6BzBH1yHS2LnIMGYTdgRThmJNcBN4OoYkOgCKn8DhDKn8+GtV2QAAAAASUVORK5CYII="/>
+  </g>
+  <g id="_03" data-name="03">
+    <circle id="Ellipse" class="cls-2" cx="78" cy="15" r="12"/>
+    <text id="_03-2" data-name="03" class="cls-3" x="77.699" y="18.731">03</text>
+  </g>
+</svg>
