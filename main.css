@@ -1,107 +1,52 @@
-
-
-/* ===================
-    DOWNLOAD LINKS
-======================*/
-figure{
-    background-color: #fff;
-    height: auto;
-    margin: 30px auto;
-    width: 320px;
-    padding-bottom: 20px;
-    align-items: center;
-    text-align: center;
-    border: 3px solid #900000;
+.about-us-blog{
+    background-color: #ccc;
+    width: 350px;
+    height: 40vh;
+    margin: 0 auto;
+    position: relative;
     border-radius: 10px;
 }
-figure svg{
-    background-color: #000;
-    padding: 30px;
-    border-radius: 50%;
-}
-.figure{
-    max-width: 320px;
-    text-align:center;
-    margin: 30px auto;
 
+.about-us-blog img{
+    width: 350px;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 10px;
 }
-.figure select{
-    padding: 10px 40px 10px 10px;
-    background-repeat: no-repeat;
-    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='30' viewBox='0 0 24 24' width='30' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
-    color: #fff;
-    background-position-x: 90%;
-    background-position-y: 8px;
+
+/* ========
+RATING...
+===========*/
+.rating{
     background-color: #900000;
-    font-size: 16px;
-    border: none;
-    appearance: none;
-    font-family: 600;
-    border-radius: 5px;
-}
-.personal-img{
-    width: 312px;
-    background-color: #f4f4f4;
-    height: 50vh;
-}
-.dtl-linkedin{
-    background-color: #900000;
-    width: 70%;
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px 0px;
-    margin: 10px auto;
-}
-.dtl-linkedin h3{
-    color: #fff;
-    font-weight: 700;
-}
-.dtl-linkedin p{
-    color: #fff;
-}
-
-
-.about{
-    padding: 10px 30px;
-}
-.about p{
-    font-size: 18px;
-}
-.about h5{
-    margin: 15px 0;
-    font-size: 18px;
-}
-.box-wrap{
+    padding: 10px 20px;
+    position: relative;
+    top: -60px;
+    width: 90%;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
-.boxes{
-    background-color: #ccc;
-    width: 150px;
-    margin: 20px 0;
-    border-radius: 10px;
-    text-align: center;
-    padding: 15px 20px;
-}
-.boxes p{
+.flex-grid h3{
     color: #fff;
-    font-size: 16px;
+    font-size: 22px;
+    
 }
-.check-list p{
-    margin-bottom: 15px;
-}
-.check-list{
-    list-style-type: none;
-}
-
-.check-list li svg{
-    margin-right: 10px;
+.flex-grid p{
+    color: #fff;
+    font-size: 15px;
 }
 
-/* ===================
+
+
+
+
+/* ===============================
     THIS MEDIA QUARY STARTED FROM 992px 
-======================*/
+=========================*/
+
 @media(min-width: 992px){
     .wrap-all{
         display: flex;
