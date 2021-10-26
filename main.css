@@ -4,10 +4,9 @@ PROCESS...
 .main-process,.main-process1,.main-process2{
     text-align: center;
     margin: 20px auto;
-    
 }
-.main-process h3,.main-process2 h3,.main-process1 h3.main-process p,.main-process1 p,.main-process2 p{
-    color: #ccc;
+.main-process h3,.main-process2 h3,.main-process1 h3,.main-process p,.main-process1 p,.main-process2 p{
+    color: #fff;
 }
 
 
