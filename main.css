@@ -6,7 +6,7 @@ PROCESS...
     margin: 20px auto;
 }
 .main-process h3,.main-process2 h3,.main-process1 h3,.main-process p,.main-process1 p,.main-process2 p{
-    color: #fff;
+    color: #000;
 }
 
 
@@ -18,7 +18,15 @@ PROCESS...
 =========================*/
 
 @media(min-width: 992px){
-   
+    .process-section{
+        display: flex;
+        
+    }
+    .main-process1::before{
+        content: url("images/arrow-1.jpg");
+        position: relative;
+        right: -30px;
+    }
 }
 
 
