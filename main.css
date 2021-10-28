@@ -2,7 +2,20 @@
 SERVICES...
 ==========*/
 .service-icon{
-    background-color: #f4f4f4;
+    background-color: #545454;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    transition: .4s;
+}
+.service-icon svg{
+    margin-right: 15px;
+}
+.service-icon h2{
+    color: white;
+}
+.service-icon:hover{
+    background-color: #900000;
 }
 
 
