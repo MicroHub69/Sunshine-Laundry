@@ -1,51 +1,9 @@
 /* ========
-PROCESS...
+SERVICES...
 ==========*/
-.main-process,.main-process1,.main-process2{
-    text-align: center;
-    margin: 20px auto;
+.service-icon{
+    background-color: #f4f4f4;
 }
-.main-process h3,.main-process2 h3,.main-process1 h3,.main-process p,.main-process1 p,.main-process2 p{
-    color: #000;
-    margin-bottom: 10px;
-}
-
-
-
-
-
-
-
-/* ===============================
-    THIS MEDIA QUARY STARTED FROM 992px 
-=========================*/
-
-@media(min-width: 768px){
-
-    /* media for process */
-    .process-section{
-        display: flex;
-        justify-content: space-between;
-    }
-    .main-process1::before{
-        content: url("images/arrow-1.jpg");
-        position: absolute;
-        margin-left: -60px;
-        width: 60px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
