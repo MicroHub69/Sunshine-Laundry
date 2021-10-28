@@ -13,6 +13,7 @@ SERVICES...
 }
 .service-icon h2{
     color: white;
+    margin-top: 10px;
 }
 .service-icon:hover{
     background-color: #900000;
