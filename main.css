@@ -1,24 +1,40 @@
-/* ========
-SERVICES...
-==========*/
-.service-icon{
-    background-color: #545454;
-    padding: 20px;
-    display: flex;
+/* =====================
+DOWNLOAD AND FORM SECTION...
+=========================*/
+
+.fff-background{
+    background-color: #fff;
     border-radius: 10px;
-    transition: .4s;
+    padding: 30px;
+    margin: 50px auto;
+   
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.service-icon svg{
-    margin-right: 15px;
-}
-.service-icon h2{
-    color: white;
-    margin-top: 10px;
-}
-.service-icon:hover{
+.pdf:hover,.fill-form:hover{
     background-color: #900000;
 }
-
+.fill-form{
+    background-color: #545454;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    color: #fff;
+    transition: .5s;
+    justify-content: space-between;
+}
+.fill-form h3,.pdf h3{
+    color: white;
+}
+.pdf{
+    background-color: #545454;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    color: #fff;
+    transition: .5s;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
 
 
 
