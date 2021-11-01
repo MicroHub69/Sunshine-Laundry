@@ -1796,3 +1796,111 @@ MEDIA QUARY FOR MIN-WIDTH 924px
       transform: translateX(0%);
     }
   }
+
+
+
+
+
+
+
+
+
+/* ========
+SET ASIDE...
+==========*/
+.main-process,.main-process1,.main-process2{
+    text-align: center;
+    margin: 20px auto;
+}
+.main-process h3,.main-process2 h3,.main-process1 h3,.main-process p,.main-process1 p,.main-process2 p{
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+
+/* Pic Review starts from here */
+.pic-review{
+    padding: 0 20px;
+    display: flex;
+}
+.pic-frame{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+}
+.pic-frame img{
+    width: 90px;
+    background-color: #ccc;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.abs{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    bottom: -5px; 
+    right: -5px;
+    height: 30px;
+    width: 30px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    vertical-align: middle;
+    border: 2px solid #fff;
+    text-align: center;
+}
+.review-heading h4{
+    font-size: 20px;
+    
+}
+.review-video{
+    background-color: #ccc;
+}
+/* ===============================
+    THIS MEDIA QUARY STARTED FROM 992px 
+=========================*/
+
+@media(min-width: 768px){
+
+    /* media for process */
+    .process-section{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-process1::before{
+        content: url("images/arrow-1.jpg");
+        position: absolute;
+        margin-left: -60px;
+        width: 60px;
+    }
+}
+
+
+
+
+
+.et_pb_toggle_open .et_pb_toggle_title, .et_pb_toggle_open h5.et_pb_toggle_title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+  	padding: 20px; 
+}
+.et_pb_toggle {
+    border: 0; 
+}
+.et_pb_toggle_open {
+     padding: 0px; 
+    background-color: #fff;
+    z-index: 1;
+}
+.et_pb_toggle_content {
+    background: #fff;
+}
+
+
+
+
